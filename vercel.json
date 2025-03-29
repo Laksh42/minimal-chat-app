@@ -1,1 +1,1 @@
-{\n  \"framework\": \"vite\",\n  \"buildCommand\": \"npm run build\",\n  \"outputDirectory\": \"dist\",\n  \"installCommand\": \"npm install\",\n  \"routes\": [\n    { \n      \"src\": \"/[^.]+\", \n      \"dest\": \"/\", \n      \"status\": 200\n    }\n  ]\n}
+{\n  \"rewrites\": [{\n    \"source\": \"/(.*)\",\n    \"destination\": \"/index.html\"\n  }]\n}
